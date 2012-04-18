@@ -4,9 +4,47 @@
 site 'http://community.opscode.com/api/v1'
 
 # Original Cookbooks
+cookbook 'base',
+  :path => 'site-cookbooks/base'
+
+cookbook 'example_users',
+  :path => 'site-cookbooks/example_users'
+
+cookbook 'web',
+  :path => 'site-cookbooks/web'
+
 cookbook 'vagrant_extras',
   :git => 'https://github.com/jeremiahsnapp/chef-vagrant_extras'
 #  :path => '../cookbooks/vagrant_extras'
+
+cookbook 'byobu',
+  :git => 'https://github.com/jeremiahsnapp/chef-byobu'
+#  :path => '../cookbooks/byobu'
+
+cookbook 'etckeeper',
+  :git => 'https://github.com/jeremiahsnapp/chef-etckeeper'
+#  :path => '../cookbooks/etckeeper'
+
+cookbook 'unattended_upgrades',
+  :git => 'https://github.com/jeremiahsnapp/chef-unattended_upgrades'
+#  :path => '../cookbooks/unattended_upgrades'
+
+# Modified Opscode Maintained Cookbooks
+cookbook 'postfix',
+  :git => 'https://github.com/jeremiahsnapp/postfix'
+#  :path => '../cookbooks/postfix'
+
+cookbook 'perl',
+  :git => 'https://github.com/jeremiahsnapp/perl'
+#  :path => '../cookbooks/perl'
+
+cookbook 'logwatch',
+  :git => 'https://github.com/jeremiahsnapp/logwatch'
+#  :path => '../cookbooks/logwatch'
+
+cookbook 'users',
+  :git => 'https://github.com/jeremiahsnapp/users'
+#  :path => '../cookbooks/users'
 
 # Community Cookbooks
 
@@ -16,6 +54,18 @@ cookbook 'vagrant_extras',
   # harm it may cause
 cookbook 'chef-solo-search',
   :git => 'https://github.com/edelight/chef-solo-search'
+
+cookbook 'timezone'
+
+# Opscode Maintained Cookbooks
+cookbook 'chef-server'
+cookbook 'chef-client'
+cookbook 'apt'
+cookbook 'git'
+cookbook 'openssh'
+cookbook 'ntp'
+cookbook 'vim'
+cookbook 'sudo'
 
 # cookbook 'chef-client'
 
