@@ -1,0 +1,8 @@
+{
+  "id": "john_doe",
+  "username": "john.doe",
+  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDMXJjclVht4qVZ9GAjFpa2ypELnw1s3hdvVbBSoHmj3mT6sq4U4ZcjwHdAVuXWSpS4fZf3yzFGfhcRLa74muqfaWtzpsfcFA61YlKpcHXJv/fg6pu365R/JqNp9q85qpZV37wiQjtGebcIBWKJCrXxaXR168k39dBEVVPrCZKux+kNZpAqGsoaaWCq73QTKPNmLIgU+he+lIUa2htikC1lwDu7RW/J8ODgUCh2F6fCEAQ1oH6Zn5SwkeNa2oisKo8cTZsozXWEZ0E4EY0nBF/Y0J23XYzqJf+z2sqslNvF1lLHEvuE/5KpbMtIJV7TCZ2QpmIS2xXszcyOFHfkJOaX john.doe@example.edu",
+  "groups": [ "sysadmin" ],
+  "uid": 3001,
+  "shell": "\/bin\/bash"
+}

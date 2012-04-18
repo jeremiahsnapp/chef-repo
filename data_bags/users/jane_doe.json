@@ -1,0 +1,7 @@
+{
+  "id": "jane_doe",
+  "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDVQ9Bxh2qV8JHI26Xsg1XQITNKfes48ZaNkVmvhCN1QENRiD/VilvEYNIF7niIqAXFFeHormRII5CqoN8Ak6TjbXIN2nR9v+SUND8sJq2NsHFYh3MgaAOwc1Ymjv1v2a1cIJoSg9v57XIbpEMT8gkV6U3UFEkkL9B6kyoLqrA3TERyiGs9/vtbsmUJqMIL4m8HTRg+KwYBT74ZaK5ZpOqje5Zo1u07avnAcsFxHqclLb2EkVUO0lqTNrrINo+nNEWPzZ3SYF73Seup6L0PO/BEJ41zTQ3Y9Vwai5p6bYtXXBpr2VJ2Bxpn3SgSlHHczReZs/ZU8cH8D/huBMQINGN/ jane_doe@example.edu",
+  "groups": [ "developers" ],
+  "uid": 3050,
+  "shell": "\/bin\/bash"
+}
