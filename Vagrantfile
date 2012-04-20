@@ -60,6 +60,9 @@ Vagrant::Config.run do |config|
   #   puppet.manifest_file  = "base.pp"
   # end
 
+  # Update chef.
+   config.vm.provision :shell, :inline => "sudo gem update chef --no-ri --no-rdoc"
+
   # Enable provisioning with chef solo, specifying a cookbooks path, roles
   # path, and data_bags path (all relative to this Vagrantfile), and adding 
   # some recipes and/or roles.
