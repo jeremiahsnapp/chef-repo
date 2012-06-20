@@ -15,7 +15,6 @@ run_list(
   "recipe[vim]",
   "recipe[sudo]",
   "recipe[base]",
-  "recipe[base::grub]",
   "recipe[base::sshd]",
   "recipe[base::iptables]",
   "recipe[example_users]"
